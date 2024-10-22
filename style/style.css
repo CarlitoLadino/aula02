@@ -9,7 +9,6 @@ body {
             padding: 20px;      
 }
 
-.card-title, .card-text {
+.card-body {
     text-align: left;
 }
-
