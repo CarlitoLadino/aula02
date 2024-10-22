@@ -7,11 +7,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="style/style.css">
-    <title>Aula 02</title>
+    <title>Bet 365</title>
 </head>
 <body>
-    <div class="card" style="width: 18rem;">
+    <div class="card">
         <img src="img/neymar.jpg" alt="Imagem do jogador Neymar" class="card-img-top">
         <div class="card-body">
             <h5 class="card-title">Neymar Jr.</h5>
@@ -19,7 +21,7 @@
             <a href="#" class="btn btn-primary">Veja mais</a>
         </div>
     </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card">
         <div class="card-body text-left">
             <h5 class="card-title">Cristiano Ronaldo</h5>
             <p class="card-text">Ex-affair de CR7 ironiza presença de equipe de Messi no Mundial de Clubes: 'Vergonha'</p>
@@ -28,7 +30,10 @@
         <img src="img/crisiano.jpg" alt="Imagem do jogador Cristiano Ronaldo" class="card-img-botttom">
     </div>
     
-    
-
+    <script>
+        $(document).ready(function() {
+            $('.card').hide().fadeIn(1000);
+        });
+    </script>
 </body>
 </html>

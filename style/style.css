@@ -1,14 +1,33 @@
-body {
-            
-            background-color: rgb(46, 45, 45);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            margin: 0;
-            padding: 20px;      
+body {           
+    background-image: url(/img/bet365.jpeg);
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    text-align: right;
+    margin: 0;
+    padding: 10px;      
 }
 
 .card-body {
     text-align: left;
+}
+
+.card{
+    animation: alternate-reverse 1s timing-function delay iteration-count direction fill-mode;
+    width: 12rem;
+    font-size: 12px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .fade-in {
+        animation: fadeIn 0.5s ease-in-out;
+    }
 }
